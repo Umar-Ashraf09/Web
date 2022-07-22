@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #E9F1CC;
+        }
+        #login_form h1 {
+            color: black;
+            text-align: center;
+            padding: 60px 0px 0px 0px;
+            margin: 0;
+            font-size: 38px;
+            font-family: Trebuchet MS;
+        }
+        #login_form {
+            width: 500px;
+            height: 400px;
+            background-color: #8B8BAE;
+            margin: 150px 0px 0px 500px;
+            border-radius: 20px;
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3), 0px 6px 20px 0px rgba(0, 0, 0, 0.25);
+        }
+        #table .username {
+            color: #C9DCD9;
+            padding: 50px 0px 0.5px 140px;
+            font-size: 17px;
+            font-family: Arial;
+        }
+        #table .username_box {
+            padding: 0px 0px 0px 140px;
+        }
+        #table .password {
+            color: #C9DCD9;
+            padding: 15px 0px 0.5px 140px;
+            font-size: 17px;
+            font-family: Arial;
+        }
+        #table .password_box {
+            padding: 0px 0px 0px 140px;
+        }
+        #login_button {
+            width: 500px;
+            height: 50px;
+            position: relative;
+            bottom: -72px;
+            border-radius: 0px 0px 20px 20px;
+            border-width: 0px;
+            background-color: #242038;
+            font-size: 25px;
+            transition-duration: 0.5s;
+            font-family: Helvetica;
+            color: #C9DCD9;
+        }
+        #login_button:hover {
+            background-color: #100644;
+        }
+    </style>
+</head>
+<body>
+    <div id="login_form">
+        <form>
+            <h1>WELCOME</h1>
+            <table id="table">
+                <tr>
+                    <td class="username">Username</td>
+                </tr>
+                <tr>
+                    <td class="username_box">
+                        <input type="text" name="username" style="height: 30px; width: 210px; border-radius: 20px; border-width: 0.5px; background-color: rgba(210, 215, 211, 0.6);"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="password">Password</td>
+                </tr>
+                <tr>
+                    <td class="password_box">
+                        <input type="password" name="password" style="height: 30px; width: 210px; border-radius: 20px; border-width: 0.5px; background-color: rgba(210, 215, 211, 0.6);"/>
+                    </td>
+                </tr>
+            </table>
+            <button id="login_button">
+                <b>LOGIN</b>
+            </button>
+        </form>
+    </div>
+</body>
+</html>
